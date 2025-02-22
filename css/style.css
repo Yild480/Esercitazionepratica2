@@ -31,12 +31,13 @@ header nav ul {
     list-style: none;
     display: flex;
     gap: 50px;
+    text-align: center;
 }
 
 header a {
     color: #43456D;
     text-transform: uppercase;
-    text-align: center;
+    
     
     text-decoration: none;
 }
