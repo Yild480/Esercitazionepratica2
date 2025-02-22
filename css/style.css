@@ -293,8 +293,12 @@ footer a:hover {
 
     nav ul {
         margin-top: 10px;
-        
        
+       
+    }
+
+    nav ul a {
+        font-size: 14px;
     }
 
     section.info-home h1 {
