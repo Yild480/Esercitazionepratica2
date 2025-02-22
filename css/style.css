@@ -1,0 +1,2795 @@
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.contenitore {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+header {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    background-color: white;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+header a {
+    color: #43456D;
+    text-transform: uppercase;
+    
+    text-decoration: none;
+}
+
+header a:hover{
+    color: #6b78b7;
+    text-decoration: none;
+}
+header p{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+header ul{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+
+header li:hover{
+    text-decoration: underline;
+    color: #6b78b7;
+}
+
+.info-img img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0 37%;
+}
+
+.info-home {
+    background-color: rgb(255, 255, 255);
+    padding: 50px 16px;
+    text-align: center;
+    border-bottom: 5px solid #43456D;
+    
+
+}
+
+
+h1{
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    color: #43456D;
+}
+
+/*SEZIONE PARCHI 1*/
+
+.parchi {
+    
+    padding: 20px 10px;
+    margin: auto;
+    margin-top: 20px;
+}
+div.flex {
+    max-width: 900px;
+    margin: 10px auto;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.testoparchi p {
+    width: 60%;
+    font-size: 16px;
+}
+
+
+
+.testoparchi h2 {
+    font-size: 24px;
+    color: #43456D;
+    margin-bottom: 1.3rem;
+   
+}
+
+
+
+div.img-parchi1 img {
+    border-radius: 5px;
+    height: 300px;
+    object-fit: cover;
+    width: 900px;
+    object-position: 0 37%;  
+}
+
+/*SEZIOJNE PARCHI 2*/
+
+div.img-parchi2 {
+    width: 40%;
+}
+
+div.img-parchi2 img {
+    border-radius: 5px;
+    height: 300px;
+    object-fit: cover;
+    width: 340px;
+    object-position: 0 3%;  
+    
+  
+}
+
+
+.testoparchi a{
+    font-size: 24px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #43456D;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    padding: 15px;
+    border-radius: 3px; 
+   
+}
+
+.testoparchi a:hover {
+    color: #8b93ba;
+    
+}
+
+div.flex-reversehome {
+    flex-direction: row-reverse;
+    max-width: 900px;
+    
+}
+
+/*Sezione Fauna e attività*/
+
+section.sezione2 {
+    background-color: #43456D;
+    align-items: center;
+    margin: 50px auto;
+    
+}
+
+div.fauna {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid #ffffff;
+}
+
+div.testofauna {
+    color: white;
+    width: 30%;
+    font-size: 16px;
+    padding: 5px;
+}
+div.titoli {
+    background-color: #ffffff;
+    width: 150px;
+    text-align: center;
+     border-radius: 3px;
+     padding: 15px;
+}
+h4 a{
+    font-family: 'Times New Roman', Times, serif;
+    width: 250px;
+    font-size: 24px;
+    color: #43456D;
+    text-decoration: none;
+    
+}
+
+h4 a:hover{
+    color: #6b78b7;
+}
+
+
+div.imgfauna img{
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+div.attività {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.testoattività {
+    color: white;
+    width: 30%;
+    font-size: 16px;
+    padding: 5px;
+}
+
+div.imgattività img{
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+section.bordo {
+    border-bottom: 2px solid #43456D;
+    margin: auto;
+    padding: 20px;
+}
+
+/*Footer*/
+footer {
+    
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 16px;
+    color:#43456D;
+}
+footer ul {
+    display: grid;
+    list-style-type: none;
+    gap: 10px;
+    color:#43456D;
+    text-decoration: none;
+}
+
+footer nav ul {
+    display: grid;
+    list-style-type: none;
+    gap: 10px;
+    color:#43456D;
+    text-decoration: none;
+}
+
+footer a {
+    color:#43456D;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color:#6b78b7;
+    text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+
+    header{
+        flex-direction: column;
+                
+    }
+
+    
+
+    nav ul {
+        margin-top: 10px;
+       
+    }
+
+    section.info-home h1 {
+        font-size: 20px;
+    }
+
+    section.parchi p { 
+        width: 85%;
+       
+    }
+ 
+
+    div.img-parchi1 img{
+        width: 900px;
+        height: 200px;
+    }
+
+    div.flex-reversehome {
+        margin: auto;
+    }
+
+    div.img-parchi2 img{
+        height: 200px;
+        
+    }
+
+   div.fauna, div.attività {
+    flex-direction: column-reverse;
+   }
+
+  
+    
+div.titoli {
+   align-items:flex-start;
+   margin-top: 10px;
+   text-align: center;
+   width: 100%;
+}
+
+   
+
+    div.testofauna , div.testoattività {
+       
+       width: 75%;
+        text-align: left;
+        
+    }
+}
+
+/*----PAGINA PARCHI----*/
+
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.contenitore {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+header {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    background-color: white;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+header a {
+    color: #43456D;
+    text-transform: uppercase;
+    
+    text-decoration: none;
+}
+
+header a:hover{
+    color: #6b78b7;
+    text-decoration: none;
+}
+header p{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+header ul{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+
+header li:hover{
+    text-decoration: underline;
+    color: #6b78b7;
+}
+
+/*Sezione iniziale*/
+
+section.titolo-parchi {
+    text-align: center;
+    margin: auto;
+    background-color: #43456D;
+    padding: 30px;
+}
+
+.titolo-parchi h1 {
+    color: white;
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform:uppercase;
+}
+
+section.info-parchi {
+    border-bottom: 2px solid #43456D;
+    max-width: 900px;
+    align-items: center;
+    display: flex;
+    margin: 50px auto;
+    padding: 40px;
+    margin-bottom: 90px;
+}
+
+section.info-parchi p{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    color: #43456D;
+   margin: auto;
+}
+
+/*selezione*/
+
+.cardblu-parchi {
+    max-width: 1100px;
+    background-color: #43456D;
+    padding: 20px 10px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+div.flex-parchi {
+    max-width: 900px;
+    margin: 50px auto;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.testo-parchi p {
+    margin-top: 20px;
+    width: 100%;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.testo-parchi h2 a {
+    font-size: 30px;
+    color: #43456D;
+    background-color: #dddddd;
+   margin-bottom: 1.2mm;
+   text-decoration: none;
+   padding: 10px;
+   
+}
+
+.testo-parchi h2 a:hover{
+    color: #dddddd;
+    border: 1px solid #dddddd;
+    background-color: #43456D;
+   transition-duration: 0.5s;
+}
+
+
+div.fotoG img {
+    border-radius: 5px;
+    height: 300px;
+    object-fit: cover;
+    width: 450px;
+    object-position: 0 37%;  
+}
+
+
+
+
+.cardbianca-parchi {
+    max-width: 1100px;
+    padding: 20px 10px;
+    margin: auto;
+    margin-top: 50px;
+   background-color: #dddddd;
+}
+
+div.flexreverse-parchi {
+    flex-direction: row-reverse;
+}
+
+.testoblu-parchi {
+    color: #43456D;
+}
+
+.testoblu-parchi p {
+    margin-top: 20px;
+    font-size: 20px;
+    width: 100%;
+}
+
+.testoblu-parchi h2 a{
+    font-size: 30px;
+    color: #dddddd;
+    background-color: #43456D;
+    text-decoration: none;
+    padding: 10px;
+    
+   
+}
+
+.testoblu-parchi h2 a:hover{
+    color: #43456D;
+    border: 1px solid #43456D;
+    background-color: #dddddd;
+   transition-duration: 0.5s;
+}
+
+section.bordo-parchi {
+    border-bottom: 2px solid #43456D;
+    margin: 90px auto 0 0;
+    padding: 20px;
+}
+
+
+
+/*Footer*/
+footer {
+    
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 16px;
+    color:#43456D;
+}
+footer ul {
+    display: grid;
+    list-style-type: none;
+    gap: 10px;
+    color:#43456D;
+    text-decoration: none;
+}
+
+footer nav ul {
+    display: grid;
+    list-style-type: none;
+    gap: 10px;
+    color:#43456D;
+    text-decoration: none;
+}
+
+footer a {
+    color:#43456D;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color:#6b78b7;
+    text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+
+    section.titolo-parchi h1{
+        font-size: 24px;
+    }
+
+    section.info-parchi p{
+        text-align: center;
+        font-size: 24px;
+    }
+
+    section.cardblu-parchi, section.cardbianca-parchi {
+        margin: 15px ;
+        
+    
+    }
+
+   div.flex-parchi {
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+   }
+
+   div.flexreverse.parchi {
+    flex-direction: column;
+    margin: auto;
+   }
+
+   div.testoblu-parchi, div.testo-parchi {
+    align-items: center;
+    margin: auto;
+    text-align: center;
+   }
+
+   div.testoblu-parchi a, div.testo-parchi a {
+    font-size: 20px;
+   }
+
+   div.testoblu-parchi p, div.testo-parchi p {
+    font-size: 16px;
+   }
+
+   div.fotoG img{
+    width: 400px;
+    height: 200px; 
+   }
+}
+
+/*---PAGINA FLORA E FAUNA---*/
+
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.contenitore {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+header {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    background-color: white;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+header a {
+    color: #43456D;
+    text-transform: uppercase;
+    
+    text-decoration: none;
+}
+
+header a:hover{
+    color: #6b78b7;
+    text-decoration: none;
+}
+header p{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+header ul{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+
+header li:hover{
+    text-decoration: underline;
+    color: #6b78b7;
+}
+
+/*Sezione iniziale*/
+
+section.titolo-fauna {
+    text-align: center;
+    margin: auto;
+    background-color: #43456D;
+    padding: 30px;
+}
+
+.titolo-fauna h1 {
+    color: white;
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform:uppercase;
+}
+
+section.info-fauna {
+    border-bottom: 2px solid #43456D;
+    max-width: 900px;
+    align-items: center;
+    display: flex;
+    margin: 50px auto;
+    padding: 40px;
+    margin-bottom: 90px;
+}
+
+section.info-fauna p{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    color: #43456D;
+   margin: auto;
+}
+
+/*selezione*/
+
+.faunablu {
+    max-width: 1100px;
+    background-color: #43456D;
+    padding: 20px 10px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+div.flex-fauna {
+    max-width: 900px;
+    padding: 30px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testo-fauna {
+    width: 71%;
+    padding: 15px;
+    font-size: 16px;
+    color: #ffffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.testo-fauna p {
+    margin: 20px auto;
+    margin-bottom: 30px;
+   
+}
+
+.testo-fauna h3 {
+    color: #ffffff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+
+.testo-fauna h2 a {
+    font-size: 24px;
+    color: #43456D;
+    background-color: #dddddd;
+   text-decoration: none;
+   padding: 10px;
+   
+}
+
+.testo-fauna h2 a:hover{
+    color: #dddddd;
+    border: 1px solid #dddddd;
+    background-color: #43456D;
+   transition-duration: 0.5s;
+}
+
+
+
+div.foto-fauna img {
+    border-radius: 5px;
+    height: 300px;
+    object-fit: cover;
+   width: 500px;
+    object-position: 0 37%;  
+}
+
+
+
+
+.cardlinea {
+    max-width: 1100px;
+    padding: 20px 0px;
+    margin: auto;
+    margin-top: 50px;
+   background-color: #dddddd;
+}
+
+div.flex-reverse{
+    flex-direction: row-reverse;
+}
+
+.testoblu-fauna {
+    width: 71%;
+    padding: 15px;
+    font-size: 16px;
+    color: #43456D;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.testoblu-fauna p {
+    margin: 20px auto;
+    margin-bottom: 30px;
+    
+   
+}
+
+.testoblu-fauna h3 {
+    color: #43456D;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+
+.testoblu-fauna h2 a {
+    font-size: 24px;
+    color: #dddddd;
+    background-color: #43456D;
+   text-decoration: none;
+   padding: 10px;
+   
+}
+
+.testoblu-fauna h2 a:hover{
+    color: #43456D;
+    border: 1px solid #43456D;
+    background-color: #dddddd;
+   transition-duration: 0.5s;
+}
+
+
+
+section.bordo-fauna {
+    border-bottom: 2px solid #43456D;
+    margin: 90px auto 0 0;
+    padding: 20px;
+}
+
+
+       /*Footer*/
+       footer {
+    
+        max-width: 900px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 32px 16px;
+        color:#43456D;
+    }
+    footer ul {
+        display: grid;
+        list-style-type: none;
+        gap: 10px;
+        color:#43456D;
+        text-decoration: none;
+    }
+    
+    footer nav ul {
+        display: grid;
+        list-style-type: none;
+        gap: 10px;
+        color:#43456D;
+        text-decoration: none;
+    }
+    
+    footer a {
+        color:#43456D;
+        text-decoration: none;
+    }
+    
+    footer a:hover {
+        color:#6b78b7;
+        text-decoration: underline;
+    }
+
+    @media (max-width: 700px) {
+
+        section.titolo-fauna h1{
+            font-size: 24px;
+        }
+    
+        section.info-fauna p{
+            text-align: center;
+            font-size: 24px;
+        }
+    
+        section.faunablu, section.cardlinea {
+            margin: 15px ;
+            
+        }
+    
+       div.flex-fauna {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: auto;
+       }
+    
+       div.flex-reverse {
+        flex-direction: column-reverse;
+        margin: auto;
+       }
+    
+       div.testoblu-fauna, div.testo-fauna {
+        align-items: center;
+        width: 95%;
+        margin: auto;
+        text-align: left;
+       }
+    
+       div.testoblu-fauna a, div.testo-fauna a {
+        font-size: 20px;
+       }
+    
+       div.testoblu-fauna p, div.testo-fauna p {
+        font-size: 16px;
+       }
+    
+       div.foto-fauna img{
+        width: 400px;
+        height: 200px; 
+        object-position: 0.2px;
+       }
+
+
+    }
+
+    /*--PAGINA ATTIVITà--*/
+
+    body {
+        margin: 0;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background-color: #ffffff;
+    }
+    
+    h1, h2, h3, h4, h5, h6, p, ul, ol {
+        margin: 0;
+        padding: 0;
+    }
+    
+    img {
+        max-width: 100%;
+        display: block;
+    }
+    
+    .contenitore {
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+    
+    header {
+        max-width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 16px;
+        background-color: white;
+    }
+    
+    header nav ul {
+        list-style: none;
+        display: flex;
+        gap: 50px;
+    }
+    
+    header a {
+        color: #43456D;
+        text-transform: uppercase;
+        
+        text-decoration: none;
+    }
+    
+    header a:hover{
+        color: #6b78b7;
+        text-decoration: none;
+    }
+    header p{
+        font-family:'Times New Roman', Times, serif;
+        font-weight: bold;
+        font-size: 24px;
+    }
+    header ul{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 16px;
+    }
+    
+    header li:hover{
+        text-decoration: underline;
+        color: #6b78b7;
+    }
+    
+    /*Sezione iniziale*/
+    
+    section.titolo-attività {
+        text-align: center;
+        margin: auto;
+        background-color: #43456D;
+        padding: 30px;
+    }
+    
+    .titolo-attività h1 {
+        color: white;
+        font-size: 36px;
+        font-family: 'Times New Roman', Times, serif;
+        text-transform:uppercase;
+    }
+    
+    section.info-attività {
+        border-bottom: 2px solid #43456D;
+        max-width: 900px;
+        align-items: center;
+        display: flex;
+        margin: 50px auto;
+        padding: 40px;
+        margin-bottom: 90px;
+    }
+    
+    section.info-attività p{
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: lighter;
+        color: #43456D;
+       margin: auto;
+       text-align: center;
+    }
+    
+    /*selezione*/
+    
+    .blu-attività {
+        max-width: 1100px;
+        background-color: #43456D;
+        padding: 20px 10px;
+        margin: auto;
+        margin-top: 50px;
+    }
+    
+    div.flex-attività {
+        max-width: 900px;
+        padding: 30px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .testo-attività {
+        width: 65%;
+        padding: 15px;
+        font-size: 16px;
+        color: #ffffff;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    .testo-attività p {
+        margin: 20px auto;
+        margin-bottom: 30px;
+       
+    }
+    
+    .testo-attività h3 {
+        color: #ffffff;
+        font-size: 20px;
+        margin-right: 10px;
+    }
+    
+    
+    .testo-attività h2 a {
+        font-size: 24px;
+        color: #43456D;
+        background-color: #dddddd;
+       text-decoration: none;
+       padding: 10px;
+       
+    }
+    
+    .testo-attività h2 a:hover{
+        color: #dddddd;
+        border: 1px solid #dddddd;
+        background-color: #43456D;
+       transition-duration: 0.5s;
+    }
+    
+    
+    
+    div.foto-attività img {
+        border-radius: 5px;
+        height: 300px;
+        object-fit: cover;
+       width: 500px;
+        object-position: 0 37%;  
+    }
+    
+    
+    
+    
+    .cardlinea {
+        max-width: 1100px;
+        padding: 20px 10px;
+        margin: auto;
+        margin-top: 50px;
+       background-color: #dddddd;
+    }
+    
+    div.flexreverse-attività{
+        flex-direction: row-reverse;
+    }
+    
+    .testoblu-attività {
+        width: 65%;
+        padding: 15px;
+        font-size: 16px;
+        color: #43456D;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    .testoblu-attività p {
+        margin: 20px auto;
+        margin-bottom: 30px;
+        
+       
+    }
+    
+    .testoblu-attività h3 {
+        color: #43456D;
+        font-size: 20px;
+        margin-right: 10px;
+    }
+    
+    
+    .testoblu-attività h2 a {
+        font-size: 24px;
+        color: #dddddd;
+        background-color: #43456D;
+       text-decoration: none;
+       padding: 10px;
+       
+    }
+    
+    .testoblu-attività h2 a:hover{
+        color: #43456D;
+        border: 1px solid #43456D;
+        background-color: #dddddd;
+       transition-duration: 0.5s;
+    }
+    
+    
+    
+    section.bordo {
+        border-bottom: 2px solid #43456D;
+        margin: 90px auto 0 0;
+        padding: 20px;
+    }
+    
+    
+           /*Footer*/
+           footer {
+        
+            max-width: 900px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            padding: 32px 16px;
+            color:#43456D;
+        }
+        footer ul {
+            display: grid;
+            list-style-type: none;
+            gap: 10px;
+            color:#43456D;
+            text-decoration: none;
+        }
+        
+        footer nav ul {
+            display: grid;
+            list-style-type: none;
+            gap: 10px;
+            color:#43456D;
+            text-decoration: none;
+        }
+        
+        footer a {
+            color:#43456D;
+            text-decoration: none;
+        }
+        
+        footer a:hover {
+            color:#6b78b7;
+            text-decoration: underline;
+        }
+
+        @media (max-width: 700px) {
+
+            section.titolo-attività h1{
+                font-size: 24px;
+            }
+        
+            section.info-attività p{
+                text-align: center;
+                font-size: 24px;
+            }
+        
+            section.blu-attività, section.cardlinea {
+                margin: 15px ;
+                
+            }
+        
+           div.flex-attività {
+            flex-direction: column-reverse;
+            align-items: center;
+            margin: auto;
+           }
+        
+           div.flexreverse-attività {
+            flex-direction: column-reverse;
+            margin: auto;
+           }
+        
+           div.testoblu-attività, div.testo-attività {
+            align-items: center;
+            width: 95%;
+            margin: auto;
+            text-align: left;
+           }
+        
+           div.testoblu-attività a, div.testo-attività a {
+            font-size: 20px;
+           }
+        
+           div.testoblu-attività p, div.testo-attività p {
+            font-size: 16px;
+           }
+        
+           div.foto-attività img{
+            width: 400px;
+            height: 200px; 
+            object-position: 0.2px;
+           }
+    
+    
+        }
+
+        /*--PAGINA PARCO PARADISO--*/
+        body {
+            margin: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color: #ffffff;
+        }
+        
+        h1, h2, h3, h4, h5, h6, p, ul, ol {
+            margin: 0;
+            padding: 0;
+        }
+        
+        img {
+            max-width: 100%;
+            display: block;
+        }
+        
+        .contenitore {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        
+        header {
+            max-width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 16px;
+            background-color: white;
+        }
+        
+        header nav ul {
+            list-style: none;
+            display: flex;
+            gap: 50px;
+        }
+        
+        header a {
+            color: #43456D;
+            text-transform: uppercase;
+            
+            text-decoration: none;
+        }
+        
+        header a:hover{
+            color: #6b78b7;
+            text-decoration: none;
+        }
+        header p{
+            font-family:'Times New Roman', Times, serif;
+            font-weight: bold;
+            font-size: 24px;
+        }
+        header ul{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 16px;
+        }
+        
+        header li:hover{
+            text-decoration: underline;
+            color: #6b78b7;
+        }
+        
+        /*Header*/
+         /*section.barra-paradiso {
+            background-color: #43456D;
+            display: flex;
+         }*/
+        
+        .navbar-paradiso {
+            background-color: #43456D;
+           display: flex;
+           max-width: fit-content;
+           margin: auto;
+           
+          
+          }
+          
+        
+          .navbar-paradiso a {
+           
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 20px;
+          }
+          
+          
+          .navbar-paradiso a:hover {
+            background-color: #ffffff;
+            color: black;
+           
+          }
+          
+        
+          .navbar-paradiso a.attiva1 {
+            background-color: #6b78b7;
+            color: white;
+            padding: 14px 20px;
+          }
+        
+          section.info-paradiso {
+            border-bottom: 2px solid #43456D;
+            max-width: 900px;
+            align-items: center;
+            display: flex;
+            margin: 50px auto;
+            padding: 40px;
+            margin-bottom: 50px;
+        }
+        
+        section.info-paradiso p{
+            font-size: 36px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: lighter;
+            color: #43456D;
+           margin: auto;
+        }
+        
+        .intro-paradiso {
+            max-width: 1000px;
+            align-items: center;
+            display: flex;
+            margin: 10px auto;
+            padding: 10px;
+            margin-bottom: 50px;
+        }
+        
+        .intro-paradiso p {
+            font-size: 24px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: lighter;
+            color: #43456D;
+            margin: auto;
+            text-align: center;
+        }
+          
+        .introduzione-paradiso {
+            background-color: #43456D;
+            max-width: 900px;
+            margin: auto;
+            display: flex;
+        }
+        
+            div.flex-paradiso {
+                padding: 30px;
+                margin: auto;
+                display: flex;
+                
+                align-items: center;
+            }
+            
+            .testo-paradiso {
+                width: 57%;
+                font-size: 16px;
+                color: #ffffff;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            }
+            
+            .foto-paradiso {
+                width: 40%;
+            }
+
+            
+            
+            
+            div.flex-paradiso img {
+                border-radius: 8px;
+                height: 400px;
+                object-fit: cover;
+                width: 100%;
+            }
+        
+        
+            section.bordo-paradiso {
+                border-bottom: 2px solid #43456D;
+                margin: 90px auto 0 0;
+                padding: 20px;
+            }
+        
+            /*paesaggi*/
+        
+            .ghiacciai {
+                max-width: 450px;
+                margin: 80px auto;
+                border-left: 40px solid #43456D;
+                padding: 10px;
+            }
+        
+            div.testo-paradisocentro {
+                width: 100%;
+        
+            }
+        
+            div.testo-paradisocentro p {
+                margin-top: 10px;
+            }
+        
+           .ghiacciai h1 {
+            color: #43456D;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+           }
+        
+           /*Attività*/
+        
+           .attivit {
+           display: flex;
+            max-width: 900px;
+            margin: 10px auto;
+        }
+        
+           .testo-paradiso2 {
+            width: 55%;
+            padding: 5px;
+            font-size: 16px;
+            color: #000000;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        
+        
+        
+        .testo-paradiso2 h1 {
+            color:#43456D;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        /*botanico*/
+        
+        .flexreverse-paradiso {
+            flex-direction: row-reverse;
+        }
+        
+        .botanico {
+            display: flex;
+             max-width: 900px;
+             margin: 10px auto;
+         }
+        
+         /*conservazione*/
+        
+         .conservazione {
+            background-color: #43456D;
+            max-width: 100%;
+            margin: auto;
+            display: flex;
+        }
+        
+            div.flex-paradiso {
+                max-width: 900px;
+                padding: 30px;
+                margin: auto;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            
+            .testo-paradiso {
+                width: 55%;
+                font-size: 16px;
+                color: #ffffff;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            }
+        
+            .testo-paradiso p {
+                margin: 20px auto;
+            }
+        
+           
+            /*Footer*/
+        footer {
+            
+            max-width: 900px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            padding: 32px 16px;
+            color:#43456D;
+        }
+        footer ul {
+            display: grid;
+            list-style-type: none;
+            gap: 10px;
+            color:#43456D;
+            text-decoration: none;
+        }
+        
+        footer nav ul {
+            display: grid;
+            list-style-type: none;
+            gap: 10px;
+            color:#43456D;
+            text-decoration: none;
+        }
+        
+        footer a {
+            color:#43456D;
+            text-decoration: none;
+        }
+        
+        footer a:hover {
+            color:#6b78b7;
+            text-decoration: underline;
+        }
+
+        @media (max-width: 700px) {
+
+            .barra-paradiso {
+                align-items: flex-start;
+            }
+            .navbar-paradiso{
+                flex-direction: column;
+                max-width: 100%;
+               
+            }
+
+            .navbar-paradiso a{
+                text-align: left;
+                font-size: 16px;
+            }
+
+            section.info-paradiso p{
+                font-size: 30px;
+                text-align: center;
+            }
+
+            .intro-paradiso p{
+                font-size: 20px;
+            }
+
+            div.flex-paradiso {
+                flex-direction: column-reverse;
+                align-items: center;
+                margin: auto;
+               }
+            
+               div.flexreverse.parchi {
+                flex-direction: column;
+                margin: auto;
+               }
+            
+               div.testo-paradiso, div.testo-paradiso2 {
+                text-align: left;
+                width: 100%;
+                margin: auto;
+               }
+            
+               div.testo-paradiso h2, div.testo-paradiso2 h2 {
+                font-size: 20px;
+               
+               }
+            
+               div.testo-paradiso p, div.testo-paradiso2 p {
+                font-size: 14px;
+               }
+
+               section.ghiacciai {
+                font-size: 14px;
+                padding: 2px;
+                margin-left: 2px;
+               }
+
+               section.ghiacciai h1{
+                font-size: 20px;
+               }
+            
+               div.foto-paradiso {
+                width: 70%;
+                padding: 20px;
+                
+               }
+
+               div.fotomedia {
+                display: none;
+               }
+            }
+            
+
+        /*PAGINA ETNA*/
+
+        body {
+            margin: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color: #ffffff;
+        }
+        
+        h1, h2, h3, h4, h5, h6, p, ul, ol {
+            margin: 0;
+            padding: 0;
+        }
+        
+        img {
+            max-width: 100%;
+            display: block;
+        }
+        
+        .contenitore {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        
+        header {
+            max-width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 16px;
+            background-color: white;
+        }
+        
+        header nav ul {
+            list-style: none;
+            display: flex;
+            gap: 50px;
+        }
+        
+        header a {
+            color: #43456D;
+            text-transform: uppercase;
+            
+            text-decoration: none;
+        }
+        
+        header a:hover{
+            color: #6b78b7;
+            text-decoration: none;
+        }
+        header p{
+            font-family:'Times New Roman', Times, serif;
+            font-weight: bold;
+            font-size: 24px;
+        }
+        header ul{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 16px;
+        }
+        
+        header li:hover{
+            text-decoration: underline;
+            color: #6b78b7;
+        }
+        
+        /*Header*/
+         
+        
+        .navbar-etna {
+            background-color: #43456D;
+           display: flex;
+           max-width: fit-content;
+           margin: auto;
+          }
+          
+        
+          .navbar-etna a {
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 20px;
+          }
+          
+          
+          .navbar-etna a:hover {
+            background-color: #ffffff;
+            color: black;
+           
+          }
+          
+        
+          .navbar-etna a.attiva {
+            background-color: #6b78b7;
+            color: white;
+            padding: 14px 20px;
+          }
+        
+          section.info-etna {
+            border-bottom: 2px solid #43456D;
+            max-width: 900px;
+            align-items: center;
+            display: flex;
+            margin: 50px auto;
+            padding: 40px;
+            margin-bottom: 50px;
+        }
+        
+        section.info-etna p{
+            font-size: 36px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: lighter;
+            color: #43456D;
+           margin: auto;
+        }
+        
+        .intro-etna {
+            max-width: 1000px;
+            align-items: center;
+            display: flex;
+            margin: 10px auto;
+            padding: 10px;
+            margin-bottom: 50px;
+        }
+        
+        .intro-etna p {
+            font-size: 24px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: lighter;
+            color: #43456D;
+            margin: auto;
+            text-align: center;
+        }
+          
+        .introduzione-etna {
+            background-color: #43456D;
+            max-width: 900px;
+            margin: auto;
+            display: flex;
+        }
+        
+            div.flex-etna {
+                padding: 30px;
+                margin: auto;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            
+            .testo-etna {
+                width: 57%;
+                font-size: 16px;
+                color: #ffffff;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            }
+            
+            .foto-etna {
+                width: 40%;
+            }
+            
+            
+            div.flex-etna img {
+                border-radius: 8px;
+                height: 400px;
+                object-fit: cover;
+                width: 100%;
+            }
+        
+        
+            section.bordo-etna {
+                border-bottom: 2px solid #43456D;
+                margin: 90px auto 0 0;
+                padding: 20px;
+            }
+        
+              /*paesaggi*/
+        
+              .vulcano {
+                max-width: 450px;
+                margin: 80px auto;
+                border-left: 40px solid #43456D;
+                padding: 10px;
+                
+            }
+        
+            div.testo-etnacentro {
+                width: 95%;
+        
+            }
+
+            
+        
+            div.testo-etnacentro p {
+                margin-top: 20px;
+            }
+        
+           .vulcano h1 {
+            color: #43456D;
+            font-size: 24px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+           }
+        
+            /*fauna*/
+        
+            .fauna-etna {
+                display: flex;
+                 max-width: 900px;
+                 margin: 30px auto;
+             }
+             
+                .testo-etna2 {
+                 width: 55%;
+                 padding: 5px;
+                 font-size: 16px;
+                 color: #000000;
+                 font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+             }
+             
+             .testo-etna2 p {
+                 margin-top: 20px;
+             }
+             
+             .testo-etna2 h1 {
+                 color:#43456D;
+                 font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                 font-size: 24px;
+                 font-weight: bold;
+             }
+        
+             /*attività*/
+        
+        .flex-etna-reverse {
+            flex-direction: row-reverse;
+        }
+        
+        .attività-etna {
+            display: flex;
+             max-width: 900px;
+             margin: 30px auto;
+         }
+             
+        
+        
+        
+        .conservazione {
+            background-color: #43456D;
+            max-width: 100%;
+            margin: 80px auto;
+            display: flex;
+        }
+        
+            div.flex-etna {
+                max-width: 900px;
+                padding: 30px;
+                margin: auto;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            
+            .testo-etna {
+                width: 55%;
+                font-size: 16px;
+                color: #ffffff;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            }
+        
+            .testo-etna p {
+                margin: 20px auto;
+            }
+        
+               /*Footer*/
+        footer {
+            
+            max-width: 900px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            padding: 32px 16px;
+            color:#43456D;
+        }
+        footer ul {
+            display: grid;
+            list-style-type: none;
+            gap: 10px;
+            color:#43456D;
+            text-decoration: none;
+        }
+        
+        footer nav ul {
+            display: grid;
+            list-style-type: none;
+            gap: 10px;
+            color:#43456D;
+            text-decoration: none;
+        }
+        
+        footer a {
+            color:#43456D;
+            text-decoration: none;
+        }
+        
+        footer a:hover {
+            color:#6b78b7;
+            text-decoration: underline;
+        }
+
+        @media (max-width: 700px) {
+
+            
+            .navbar-etna{
+                flex-direction: column;
+                max-width: 100%;
+               
+            }
+
+            .navbar-etna a{
+                text-align: left;
+                font-size: 16px;
+            }
+
+            section.info-etna p{
+                font-size: 30px;
+            }
+
+            .intro-etna p{
+                font-size: 20px;
+            }
+
+            div.flex-etna {
+                flex-direction: column-reverse;
+                align-items: center;
+                margin: auto;
+               }
+            
+               div.flex-etna-reverse {
+                flex-direction: column-reverse;
+                margin: auto;
+               }
+            
+               div.testo-etna, div.testo-etna2 {
+                text-align: left;
+                width: 100%;
+                margin: auto;
+               }
+            
+               div.testo-etna h2, div.testo-etna2 h2 {
+                font-size: 20px;
+               
+               }
+            
+               div.testo-etna p, div.testo-etna2 p {
+                font-size: 14px;
+               }
+
+               section.vulcano {
+                font-size: 14px;
+                padding: 2px;
+                margin-left: 2px;
+               }
+
+               section.vulcano h1{
+                font-size: 20px;
+               }
+            
+               div.foto-etna {
+                width: 70%;
+                padding: 20px;
+                
+               }
+
+               div.fotomedia {
+                display: none;
+               }
+            }
+
+
+        /*PAGINA POLLINO*/
+
+        body {
+            margin: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color: #ffffff;
+        }
+        
+        h1, h2, h3, h4, h5, h6, p, ul, ol {
+            margin: 0;
+            padding: 0;
+        }
+        
+        img {
+            max-width: 100%;
+            display: block;
+        }
+        
+        .contenitore {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        
+        header {
+            max-width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 16px;
+            background-color: white;
+        }
+        
+        header nav ul {
+            list-style: none;
+            display: flex;
+            gap: 50px;
+        }
+        
+        header a {
+            color: #43456D;
+            text-transform: uppercase;
+            
+            text-decoration: none;
+        }
+        
+        header a:hover{
+            color: #6b78b7;
+            text-decoration: none;
+        }
+        header p{
+            font-family:'Times New Roman', Times, serif;
+            font-weight: bold;
+            font-size: 24px;
+        }
+        header ul{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 16px;
+        }
+        
+        header li:hover{
+            text-decoration: underline;
+            color: #6b78b7;
+        }
+        
+        /*Header*/
+         
+        
+        .navbar-pollino {
+            background-color: #43456D;
+            display: flex;
+            max-width: fit-content;
+            margin: auto;
+          
+          }
+          
+        
+          .navbar-pollino a {
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 20px;
+          }
+          
+          
+          .navbar-pollino a:hover {
+            background-color: #ffffff;
+            color: black;
+           
+          }
+          
+        
+          .navbar-pollino a.attiva {
+            background-color: #6b78b7;
+            color: white;
+            padding: 14px 20px;
+          }
+        
+          section.info-pollino {
+            border-bottom: 2px solid #43456D;
+            max-width: 900px;
+            align-items: center;
+            display: flex;
+            margin: 50px auto;
+            padding: 40px;
+            margin-bottom: 50px;
+        }
+        
+        section.info-pollino p{
+            font-size: 36px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: lighter;
+            color: #43456D;
+           margin: auto;
+        }
+        
+        .intro-pollino {
+            max-width: 1000px;
+            align-items: center;
+            display: flex;
+            margin: 10px auto;
+            padding: 10px;
+            margin-bottom: 50px;
+        }
+        
+        .intro-pollino p {
+            font-size: 24px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: lighter;
+            color: #43456D;
+            margin: auto;
+            text-align: center;
+        }
+          
+        .introduzione-pollino {
+            background-color: #43456D;
+            max-width: 900px;
+            margin: auto;
+            display: flex;
+        }
+        
+            div.flex-pollino {
+                padding: 30px;
+                margin: auto;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            
+            .testo-pollino {
+                width: 57%;
+                font-size: 16px;
+                color: #ffffff;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            }
+            
+            .foto-pollino {
+                width: 40%;
+            }
+            
+            
+            div.flex-pollino img {
+                border-radius: 8px;
+                height: 400px;
+                object-fit: cover;
+                width: 100%;
+            }
+        
+        
+            section.bordo-pollino {
+                border-bottom: 2px solid #43456D;
+                margin: 90px auto 0 0;
+                padding: 20px;
+            }
+        
+              /*paesaggi*/
+        
+              .montagne-pollino {
+                max-width: 450px;
+                margin: 80px auto;
+                border-left: 40px solid #43456D;
+                padding: 10px;
+                
+            }
+        
+            div.testo-pollinocentro {
+                width: 95%;
+        
+            }
+        
+            div.testo-pollinocentro p {
+                margin-top: 20px;
+            }
+        
+           .montagne-pollino h1 {
+            
+            color: #43456D;
+            font-size: 24px;
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: bold;
+           }
+        
+            /*fauna*/
+        
+            .fauna-pollino {
+                display: flex;
+                 max-width: 900px;
+                 margin: 30px auto;
+             }
+             
+                .testo-pollino2 {
+                 width: 55%;
+                 font-size: 16px;
+                 color: #000000;
+                 font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+             }
+             
+             .testo-pollino2 p {
+                 margin-top: 20px;
+             }
+             
+             .testo-pollino2 h1 {
+                 color:#43456D;
+                 font-weight: bold;
+                 font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+             }
+        
+             .fotofauna-pollino {
+                width: 40%;
+             }
+        
+             .fotofauna-pollino img{
+                border-radius: 8px;
+                height: 400px;
+                object-fit: cover;
+                width: 100%;
+                object-position: 1px;
+             }
+        
+             /*attività*/
+        
+        .flex-pollino-reverse {
+            flex-direction: row-reverse;
+        }
+        
+        .attività-pollino {
+            display: flex;
+             max-width: 900px;
+             margin: 30px auto;
+         }
+             
+        
+        
+        
+        .conservazione-pollino {
+            background-color: #43456D;
+            max-width: 100%;
+            margin: 80px auto;
+            display: flex;
+        }
+        
+            div.flex-pollino {
+                max-width: 900px;
+                padding: 30px;
+                margin: auto;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            
+            .testo-pollino {
+                width: 55%;
+                padding: 5px;
+                font-size: 16px;
+                color: #ffffff;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            }
+        
+            .testo-pollino p {
+                margin: 20px auto;
+            }
+        
+               /*Footer*/
+        footer {
+            
+            max-width: 900px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            padding: 32px 16px;
+            color:#43456D;
+        }
+        footer ul {
+            display: grid;
+            list-style-type: none;
+            gap: 10px;
+            color:#43456D;
+            text-decoration: none;
+        }
+        
+        footer nav ul {
+            display: grid;
+            list-style-type: none;
+            gap: 10px;
+            color:#43456D;
+            text-decoration: none;
+        }
+        
+        footer a {
+            color:#43456D;
+            text-decoration: none;
+        }
+        
+        footer a:hover {
+            color:#6b78b7;
+            text-decoration: underline;
+        }
+
+        @media (max-width: 700px) {
+
+            
+            .navbar-pollino{
+                flex-direction: column;
+                max-width: 100%;
+               
+            }
+
+            .navbar-pollino a{
+                text-align: left;
+                font-size: 16px;
+            }
+
+            section.info-pollino p{
+                font-size: 30px;
+            }
+
+            .intro-pollino p{
+                font-size: 20px;
+            }
+
+            div.flex-pollino {
+                flex-direction: column-reverse;
+                align-items: center;
+                margin: auto;
+               }
+            
+               div.flex-pollino-reverse {
+                flex-direction: column-reverse;
+                margin: auto;
+               }
+            
+               div.testo-pollino, div.testo-pollino2 {
+                text-align: left;
+                width: 100%;
+                margin: auto;
+               }
+            
+               div.testo-pollino h2, div.testo-pollino2 h2 {
+                font-size: 20px;
+               
+               }
+            
+               div.testo-pollino p, div.testo-pollino2 p {
+                font-size: 14px;
+               }
+
+               section.montagne-pollino {
+                font-size: 14px;
+                padding: 2px;
+                margin-left: 2px;
+               }
+
+               section.montagne-pollino h1{
+                font-size: 20px;
+               }
+            
+               div.foto-pollino {
+                width: 70%;
+                padding: 20px;
+                
+               }
+
+               div.fotofauna-pollino {
+                width: 70%;
+                padding: 20px;
+                
+               }
+
+               div.fotomedia {
+                display: none;
+               }
+            }
+
+        /*PAGINA DOLOMITI*/
+
+        body {
+            margin: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color: #ffffff;
+        }
+        
+        h1, h2, h3, h4, h5, h6, p, ul, ol {
+            margin: 0;
+            padding: 0;
+        }
+        
+        img {
+            max-width: 100%;
+            display: block;
+        }
+        
+        .contenitore {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        
+        header {
+            max-width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 16px;
+            background-color: white;
+        }
+        
+        header nav ul {
+            list-style: none;
+            display: flex;
+            gap: 50px;
+        }
+        
+        header a {
+            color: #43456D;
+            text-transform: uppercase;
+            
+            text-decoration: none;
+        }
+        
+        header a:hover{
+            color: #6b78b7;
+            text-decoration: none;
+        }
+        header p{
+            font-family:'Times New Roman', Times, serif;
+            font-weight: bold;
+            font-size: 24px;
+        }
+        header ul{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 16px;
+        }
+        
+        header li:hover{
+            text-decoration: underline;
+            color: #6b78b7;
+        }
+        
+        /*Header*/
+        
+        
+        .navbar-dolomiti {
+            background-color: #43456D;
+            display: flex;
+            max-width: fit-content;
+            margin: auto;
+          
+          }
+          
+        
+          .navbar-dolomiti a {
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 20px;
+          }
+          
+          
+          .navbar-dolomiti a:hover {
+            background-color: #ffffff;
+            color: black;
+           
+          }
+          
+        
+          .navbar-dolomiti a.attiva {
+            background-color: #6b78b7;
+            color: white;
+            padding: 14px 20px;
+          }
+        
+          section.info-dolomiti {
+            border-bottom: 2px solid #43456D;
+            max-width: 900px;
+            align-items: center;
+            display: flex;
+            margin: 50px auto;
+            padding: 40px;
+            margin-bottom: 50px;
+        }
+        
+        section.info-dolomiti p{
+            font-size: 36px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: lighter;
+            color: #43456D;
+           margin: auto;
+        }
+        
+        .intro-dolomiti {
+            max-width: 1000px;
+            align-items: center;
+            display: flex;
+            margin: 10px auto;
+            padding: 10px;
+            margin-bottom: 50px;
+        }
+        
+        .intro-dolomiti p {
+            font-size: 24px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: lighter;
+            color: #43456D;
+            margin: auto;
+            text-align: center;
+        }
+          
+        .introduzione-dolomiti {
+            background-color: #43456D;
+            max-width: 900px;
+            margin: auto;
+            display: flex;
+        }
+        
+            div.flex-dolomiti {
+                padding: 30px;
+                margin: auto;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            
+            .testo-dolomiti {
+                width: 55%;
+                font-size: 16px;
+                color: #ffffff;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            }
+            
+            .foto-dolomiti {
+                width: 40%;
+            }
+            
+            
+            div.flex-dolomiti img {
+                border-radius: 8px;
+                height: 400px;
+                object-fit: cover;
+                width: 100%;
+            }
+        
+        
+            section.bordo-dolomiti {
+                border-bottom: 2px solid #43456D;
+                margin: 90px auto 0 0;
+                padding: 20px;
+            }
+        
+              /*paesaggi*/
+        
+              .paesaggi-dolomiti {
+                max-width: 450px;
+                margin: 80px auto;
+                border-left: 40px solid #43456D;
+                padding: 10px;
+                
+            }
+        
+            div.testo-dolomiticentro {
+                width: 95%;
+        
+            }
+        
+            div.testo-dolomiticentro p {
+                margin-top: 20px;
+            }
+        
+           .paesaggi-dolomiti h1 {
+            color: #43456D;
+            font-size: 24px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: bold;
+           }
+        
+            /*fauna*/
+        
+            .fauna-dolomiti {
+                display: flex;
+                 max-width: 900px;
+                 margin: 30px auto;
+             }
+             
+                .testo-dolomiti2 {
+                 width: 58%;
+                 padding: 5px;
+                 font-size: 16px;
+                 color: #000000;
+                 font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+             }
+             
+             .testo-dolomiti2 p {
+                 margin-top: 20px;
+             }
+             
+             .testo-dolomiti2 h1 {
+                 color:#43456D;
+                 font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                 font-weight: bold;
+                
+             }
+        
+             .foto-dolomitifauna {
+                width: 40%;
+             }
+        
+             .foto-dolomitifauna img{
+                border-radius: 8px;
+                height: 400px;
+                object-fit: cover;
+                width: 100%;
+                object-position: 1px;
+             }
+        
+             /*attività*/
+        
+        .flex-dolomiti-reverse {
+            flex-direction: row-reverse;
+        }
+        
+        .attività-dolomiti {
+            display: flex;
+             max-width: 900px;
+             margin: 30px auto;
+         }
+             
+        
+        
+        
+        .conservazione-dolomiti {
+            background-color: #43456D;
+            max-width: 100%;
+            margin: 80px auto;
+            display: flex;
+        }
+        
+            div.flex-dolomiti {
+                max-width: 900px;
+                padding: 30px;
+                margin: auto;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            
+            .testo-dolomiti {
+                width: 55%;
+                font-size: 16px;
+                color: #ffffff;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            }
+        
+            .testo-dolomiti p {
+                margin: 20px auto;
+            }
+        
+               /*Footer*/
+        footer {
+            
+            max-width: 900px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            padding: 32px 16px;
+            color:#43456D;
+        }
+        footer ul {
+            display: grid;
+            list-style-type: none;
+            gap: 10px;
+            color:#43456D;
+            text-decoration: none;
+        }
+        
+        footer nav ul {
+            display: grid;
+            list-style-type: none;
+            gap: 10px;
+            color:#43456D;
+            text-decoration: none;
+        }
+        
+        footer a {
+            color:#43456D;
+            text-decoration: none;
+        }
+        
+        footer a:hover {
+            color:#6b78b7;
+            text-decoration: underline;
+        }
+
+        @media (max-width: 700px) {
+
+            
+            .navbar-dolomiti{
+                flex-direction: column;
+                max-width: 100%;
+               
+            }
+
+            .navbar-dolomiti a{
+                text-align: left;
+                font-size: 16px;
+            }
+
+            section.info-dolomiti p{
+                font-size: 30px;
+                text-align: center;
+            }
+
+            .intro-dolomiti p{
+                font-size: 20px;
+            }
+
+            div.flex-dolomiti {
+                flex-direction: column-reverse;
+                align-items: center;
+                margin: auto;
+               }
+            
+               div.flex-dolomiti-reverse {
+                flex-direction: column-reverse;
+                margin: auto;
+               }
+            
+               div.testo-dolomiti, div.testo-dolomiti2 {
+                text-align: left;
+                width: 100%;
+                margin: auto;
+               }
+            
+               div.testo-dolomiti h2, div.testo-dolomiti2 h2 {
+                font-size: 20px;
+               
+               }
+            
+               div.testo-dolomiti p, div.testo-dolomiti2 p {
+                font-size: 14px;
+               }
+
+               section.paesaggi-dolomiti {
+                font-size: 14px;
+                padding: 2px;
+                margin-left: 2px;
+               }
+
+               section.paesaggi-dolomiti h1{
+                font-size: 20px;
+               }
+            
+               div.foto-dolomiti {
+                width: 70%;
+                padding: 20px;
+                
+               }
+
+               div.foto-dolomitifauna {
+                width: 70%;
+                padding: 20px;
+                
+               }
+
+               div.fotomedia {
+                display: none;
+               }
+            }
